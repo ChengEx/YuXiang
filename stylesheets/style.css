@@ -1,0 +1,831 @@
+@charset "UTF-8";
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: #555;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container-footer {
+  width: 500px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.top-menu {
+  background: black;
+}
+
+.top-menu p {
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.top-block {
+  height: 80px;
+  margin: 0;
+  line-height: 80px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top-block button {
+  display: none;
+}
+
+.top-block ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-block li {
+  margin-right: 30px;
+}
+
+.top-block .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.top-block h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  margin-left: 210px;
+  font-size: 35px;
+}
+
+.photo-item {
+  margin: 0;
+  left: 270px;
+  position: relative;
+}
+
+.photo-item ul {
+  font-size: 25px;
+}
+
+.photo-item li {
+  margin-right: 0;
+}
+
+.photo-item i {
+  width: 50px;
+}
+
+.index-image {
+  height: 500px;
+  background: url(../images/index-image123.jpg) center center no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}
+
+.index-image h2 {
+  font-size: 60px;
+  color: #eccccc;
+  text-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+  margin: 0 100px;
+  padding-top: 70px;
+}
+
+.hothot {
+  text-align: center;
+}
+
+.hot-items ul {
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hot-items p {
+  text-align: center;
+  line-height: 250px;
+  height: 250px;
+  width: 250px;
+  background: #cfbdbd;
+}
+
+.hot-items li {
+  display: list-item;
+}
+
+.hot-items h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.hot-items h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.cut-hands {
+  background: gray;
+  height: 350px;
+}
+
+.cut-hands h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.cut-hands p {
+  text-align: center;
+  color: white;
+}
+
+.send-email h1 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 35px;
+}
+
+.send-email button {
+  margin: 30px;
+  position: relative;
+  left: 10px;
+  height: 40px;
+  width: 630px;
+  text-align: center;
+  background: black;
+}
+
+.send-email button h3 {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.send-email .set-button {
+  text-align: center;
+}
+
+.send-email .search {
+  text-align: center;
+}
+
+.send-email .search input {
+  width: 600px;
+  height: 28px;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 2px;
+  border-radius: 3px;
+  padding-left: 35px;
+  -webkit-box-shadow: 4px 4px rgba(51, 51, 102, 0.5);
+          box-shadow: 4px 4px rgba(51, 51, 102, 0.5);
+}
+
+.send-email .search i {
+  position: relative;
+  left: 32px;
+}
+
+.page-footer {
+  background: #585252;
+  height: 50px;
+}
+
+.page-footer ul {
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.page-footer a {
+  color: white;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+/* --------------------   以上  index 第一頁全部   --------------------  */
+.container-item {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.inside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inside li {
+  display: list-item;
+}
+
+.inside p {
+  font-size: 17px;
+}
+
+.inside img {
+  height: 500px;
+  width: 550px;
+}
+
+.inside-right {
+  margin-left: 30px;
+}
+
+.inside-right h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.inside-right .items {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.inside-right p {
+  font-size: 14px;
+}
+
+.inside-right select {
+  width: 400px;
+  height: 50px;
+}
+
+.inside-right input {
+  width: 80px;
+  height: 44px;
+}
+
+.inside-right button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 50px;
+  background: black;
+  color: white;
+}
+
+.inside-right ul {
+  display: list-item;
+}
+
+.inside-right li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right-left {
+  height: 100px;
+  width: 100px;
+  background: gray;
+  margin-bottom: 15px;
+}
+
+.right-right {
+  height: 100px;
+  vertical-align: middle;
+  line-height: 20px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.middle {
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+}
+
+/*  ------------------- 以上為 item 第二頁全部 ------------------- */
+.middle-item ul {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.middle-item .price {
+  margin-left: 500px;
+}
+
+.middle-item .count {
+  margin-left: 120px;
+}
+
+.middle-item .total {
+  margin-left: 180px;
+}
+
+.middle-item .li {
+  display: list-item;
+  list-style: none;
+}
+
+.item-picture img {
+  height: 90px;
+  width: 100px;
+}
+
+.item-word {
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.item-word h2 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.item-word h4 {
+  font-size: 10px;
+  margin: 0;
+}
+
+.item-word h5 {
+  font-size: 12px;
+  margin: 0;
+}
+
+.money {
+  margin-left: 185px;
+  line-height: 50px;
+}
+
+.setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.setting .setting-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+}
+
+.setting input {
+  width: 50px;
+  text-align: center;
+  margin-left: 110px;
+  margin-top: 35px;
+}
+
+.money-last {
+  margin-left: 150px;
+  line-height: 50px;
+}
+
+.down-side input {
+  width: 100px;
+}
+
+.last-price {
+  margin-left: 400px;
+}
+
+.last-money {
+  margin-left: 280px;
+}
+
+.last {
+  margin-left: 585px;
+}
+
+.lastlast {
+  margin-left: 300px;
+}
+
+.pay-button {
+  margin-left: 580px;
+  width: 380px;
+  height: 40px;
+  background: black;
+}
+
+.pay-button h3 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*  ------------------- 以上為 cart 第三頁全部 ------------------- */
+@media screen and (max-width: 1140px) {
+  .container {
+    width: 820px;
+  }
+  .top-block h2 {
+    margin-left: 100px;
+  }
+  .top-block li {
+    margin-right: 20px;
+  }
+  .photo-item {
+    left: 140px;
+  }
+  .photo-item li {
+    width: 40px;
+  }
+  .hot-items p {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+  }
+  .container-item {
+    width: 800px;
+  }
+  .inside img {
+    height: 400px;
+    width: 400px;
+  }
+  .middle-item .price {
+    margin-left: 400px;
+  }
+  .middle-item .count {
+    margin-left: 80px;
+  }
+  .middle-item .total {
+    margin-left: 150px;
+  }
+  .item-word {
+    width: 200px;
+  }
+  .money {
+    margin-left: 145px;
+    line-height: 50px;
+  }
+  .setting input {
+    margin-left: 60px;
+  }
+  .setting h4 {
+    height: 20px;
+  }
+  .money-last {
+    margin-left: 130px;
+    line-height: 50px;
+  }
+  .last-price {
+    margin-left: 340px;
+  }
+  .last-money {
+    margin-left: 180px;
+  }
+  .last {
+    margin-left: 525px;
+  }
+  .lastlast {
+    margin-left: 210px;
+  }
+  .pay-button {
+    margin-left: 420px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .container {
+    width: 740px;
+  }
+  .top-block h2 {
+    margin-left: 90px;
+  }
+  .top-block li {
+    margin-right: 10px;
+  }
+  .photo-item li {
+    width: 35px;
+  }
+  .hot-items p {
+    height: 180px;
+    width: 180px;
+    line-height: 180px;
+  }
+  .container-item {
+    width: 700px;
+  }
+  .inside img {
+    height: 350px;
+    width: 350px;
+  }
+  .inside-right select {
+    width: 300px;
+  }
+  .inside-right button {
+    width: 300px;
+  }
+  .inside-left p {
+    width: 350px;
+  }
+  .middle-item .price {
+    margin-left: 350px;
+  }
+  .middle-item .count {
+    margin-left: 50px;
+  }
+  .middle-item .total {
+    margin-left: 100px;
+  }
+  .money {
+    margin-left: 90px;
+  }
+  .setting input {
+    margin-left: 40px;
+  }
+  .money-last {
+    margin-left: 80px;
+  }
+  .last-price {
+    margin-left: 240px;
+  }
+  .last-money {
+    margin-left: 150px;
+  }
+  .last {
+    margin-left: 425px;
+  }
+  .lastlast {
+    margin-left: 180px;
+  }
+  .pay-button {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  .top-block {
+    position: relative;
+  }
+  .top-block h2 {
+    margin: 0 auto;
+  }
+  .top-block button {
+    display: block;
+    background: #ff9204;
+    border: none;
+    width: 130px;
+  }
+  .top-block .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 80px;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 5;
+  }
+  .top-block .menu li {
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .top-block .menu li:hover {
+    color: white;
+    background: #ff9204;
+  }
+  .top-block .photo-item {
+    left: auto;
+  }
+  .top-block .photo-item li {
+    width: 30px;
+  }
+  .index-image {
+    height: 400px;
+  }
+  .index-image h2 {
+    font-size: 40px;
+    margin: 0 70px;
+    padding-top: 50px;
+  }
+  .line1 ul {
+    display: list-item;
+  }
+  .line1 ul p {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+  }
+  .line1 ul h5 {
+    margin-bottom: 20px;
+  }
+  .line2 ul {
+    display: list-item;
+  }
+  .line2 ul p {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+  }
+  .line2 ul h5 {
+    margin-bottom: 20px;
+  }
+  .send-email .search input {
+    width: 400px;
+  }
+  .send-email .set-button button {
+    width: 430px;
+  }
+  .container-item {
+    width: 90%;
+  }
+  .inside .inside-left {
+    text-align: center;
+  }
+  .inside .inside-left p {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 600px;
+            flex: 0 0 600px;
+    margin: 10px auto;
+    padding: 0;
+    text-align: center;
+  }
+  .inside ul {
+    display: list-item;
+  }
+  .inside .inside-right {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .inside .inside-right h1 {
+    text-align: center;
+  }
+  .inside .inside-right .items {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .inside .right-left {
+    margin-left: auto;
+  }
+  .inside .right-right {
+    margin-right: auto;
+  }
+  .middle-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .middle-item .price {
+    margin-left: 250px;
+  }
+  .middle-item .count {
+    margin-left: auto;
+  }
+  .middle-item .total {
+    margin-left: auto;
+  }
+  .middle-item .setting .money {
+    margin-left: 0;
+  }
+  .middle-item .setting li:nth-child(3) {
+    margin-left: auto;
+  }
+  .middle-item .setting input {
+    margin-left: 0;
+    width: 30px;
+  }
+  .middle-item .setting .money-last {
+    margin-left: 0;
+  }
+  .middle-item .setting .setting-inside {
+    margin-left: 0;
+  }
+  .middle-item .setting li:nth-child(4) {
+    margin-left: auto;
+  }
+  .item-word {
+    margin-left: 5px;
+  }
+  .last-price {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .down-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .down-side li:nth-child(2) {
+    margin-left: auto;
+  }
+  .down-side li:nth-child(3) {
+    margin-left: auto;
+  }
+  .last-money {
+    margin-left: auto;
+  }
+  .last {
+    margin-left: 60%;
+  }
+  .lastlast {
+    margin-left: auto;
+  }
+  .pay-button {
+    margin-left: 20%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .index-image h2 {
+    font-size: 35px;
+    margin: 0 60px;
+  }
+  .top-block button {
+    width: 100px;
+  }
+  .top-block .menu li {
+    width: 100px;
+  }
+  .top-block .photo-item {
+    left: auto;
+  }
+  .top-block .photo-item li {
+    width: 20px;
+  }
+  .cut-hands {
+    height: 400px;
+  }
+  .inside-left {
+    text-align: center;
+  }
+  .inside-left p {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 400px;
+            flex: 0 0 400px;
+  }
+  .inside-right {
+    margin-left: 0;
+  }
+  .item-word {
+    width: 150px;
+  }
+  .item-word h2 {
+    font-size: 15px;
+  }
+  .middle-item .price {
+    margin-left: 200px;
+  }
+  .middle-item .money {
+    font-size: 15px;
+  }
+  .middle-item .money-last {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .send-email .search input {
+    width: 300px;
+  }
+  .send-email .set-button button {
+    width: 330px;
+  }
+  .container-footer {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

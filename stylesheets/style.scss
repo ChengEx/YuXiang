@@ -1,0 +1,938 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: #555;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.container-footer {
+    width: 500px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+} 
+
+.top-menu {
+    background: black;
+    
+}
+
+.top-menu p {
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.top-block {
+    height: 80px;
+    margin: 0;
+    line-height: 80px;
+    justify-content: space-around;
+    button {
+        display: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;   
+    }
+    li {
+        margin-right: 30px;
+        
+    }
+
+    .container {
+        display: flex;
+        text-align: center;
+    }
+    h2 {
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+        margin-left: 210px; 
+        font-size: 35px;
+    }
+    
+}
+
+.photo-item {
+    margin: 0;
+    
+    left: 270px;
+    position: relative;
+    ul {
+        font-size: 25px;
+    }
+    li {
+        margin-right: 0;
+    }
+    i {
+        width: 50px;
+    }
+}
+
+
+
+
+.index-image {
+    height:500px;
+    background: url(../images/index-image123.jpg) center center no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    h2 {
+        font-size: 60px;
+        color: rgb(236, 204, 204);
+        text-shadow: rgba(#000,0.8) 0 0 5px;
+        margin:0 100px;
+        padding-top: 70px;
+        
+    }
+}
+
+
+
+.hothot {
+    text-align: center;
+    
+}
+.hot-items {
+    ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    p {
+        text-align: center;
+        line-height: 250px;
+        height: 250px;
+        width: 250px;
+        background: rgb(207, 189, 189);
+    }
+    li {
+        display: list-item;
+    }
+    h3 {
+        margin: 0;
+        text-align: center;
+    }
+    h5 {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+.cut-hands {
+    background: gray;
+    height: 350px;
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    p {
+        text-align: center;
+        color: white;
+    }
+}
+
+.send-email {
+    h1 {
+        text-align: center;
+        font-size: 35px;
+        padding-top: 35px;  
+    }
+    button {
+        margin: 30px;
+        position: relative;
+        left: 10px;
+        height: 40px;
+        width: 630px;
+        text-align: center;
+        background: black;
+        h3 {
+            margin: 0;
+            color: white;
+            text-align: center;
+        
+        }
+    }
+    .set-button {
+        text-align: center;
+       
+    }
+    .search {
+        text-align: center;
+        input {
+            width: 600px;
+            height: 28px;
+            border-style: solid;
+            border-color: #ddd;
+            border-width: 2px;
+            border-radius: 3px;
+            padding-left: 35px;
+            box-shadow:4px 4px rgba(20%,20%,40%,0.5);
+        }
+        i {
+            position: relative;
+            left: 32px;
+        }
+    }
+}
+
+
+.page-footer {
+    background: rgb(88, 82, 82);
+    height : 50px;
+    ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    a {
+        color: white;
+        line-height: 50px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* --------------------   以上  index 第一頁全部   --------------------  */
+
+
+.container-item {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.inside {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        
+    }
+    li{
+        display: list-item;
+    
+    }
+    p {
+        font-size: 17px;
+    }
+    img {
+        height: 500px;
+        width: 550px;;
+    }
+   
+    
+}
+
+.inside-right {
+    margin-left: 30px;
+    h1 {
+        padding: 0;
+        margin: 0;
+    }
+    .items {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    p {
+        font-size:  14px;
+    }
+    select {
+        width: 400px;
+        height: 50px;
+    }
+    input {
+        width: 80px;
+        height: 44px;
+    }
+    button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 400px;
+        height:50px;
+        background: black;
+        color: white;
+    }
+    ul {
+        display: list-item;
+    }
+    li {
+        display: flex;
+    
+    }
+}
+
+.right-left {
+    height: 100px;
+    width: 100px;
+    background: gray;
+    margin-bottom: 15px;
+}
+.right-right {
+    
+    height: 100px;
+    vertical-align: middle;
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+   
+}
+
+.middle {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+
+
+/*  ------------------- 以上為 item 第二頁全部 ------------------- */   
+
+
+.middle-item {
+    ul {
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+    .price {
+        margin-left: 500px;
+    }
+    .count {
+        margin-left: 120px;
+    }
+    .total {
+        margin-left: 180px;
+    }
+    .li {
+        display: list-item;
+        list-style: none;
+    }
+}
+
+
+.item-picture img{
+    height: 90px;
+    width: 100px;
+    
+}
+
+
+
+
+.item-word {
+    margin-left: 20px;
+    line-height: 30px;
+    h2 {
+        font-size: 17px;
+        margin: 0;
+    }
+    h4 {
+        font-size: 10px;
+        margin: 0;
+    }
+    h5 {
+        font-size: 12px;
+        margin: 0;
+    }
+}
+
+.money {
+    margin-left: 185px;
+    line-height: 50px;
+}
+
+.setting {
+    display: flex;
+    .setting-inside {
+        display: flex;
+        height: 100px;
+    }
+    input {
+        width: 50px;
+        text-align: center;
+        margin-left:  110px;
+        margin-top: 35px;
+    }
+}
+
+.money-last {
+    margin-left: 150px;
+    line-height: 50px;
+}
+
+.down-side input {
+    width: 100px;
+}
+
+.last-price {
+    margin-left: 400px;
+}
+
+.last-money {
+    margin-left: 280px;
+}
+
+.last{
+    margin-left: 585px;
+}
+
+.lastlast {
+    margin-left: 300px;
+}
+
+.pay-button {
+    margin-left: 580px;
+    width: 380px;
+    height:40px;
+    background: black;
+    h3 {
+        margin: 0;
+        color: white;
+        text-align: center;
+       
+        vertical-align: middle;
+    
+    }
+}
+
+
+/*  ------------------- 以上為 cart 第三頁全部 ------------------- */
+
+
+@media screen and (max-width: 1140px)
+{
+
+
+    // index RWD
+    .container {
+        width: 820px;
+    }
+    .top-block {
+        h2 {
+            margin-left: 100px;
+        }
+        li {
+            margin-right: 20px;
+        }
+    }
+    .photo-item {
+        left:140px;
+        li {
+            width: 40px;
+        }
+    }
+    .hot-items p {
+        height: 200px;
+        width: 200px;
+        line-height: 200px;
+    }
+    
+    // item RWD
+
+    .container-item {
+        width: 800px;
+    }
+    .inside {
+        img {
+            height: 400px;
+            width: 400px;
+        }
+    }
+
+
+    // cart RWD
+
+    .middle-item {
+        .price {
+            margin-left: 400px;
+        }
+        .count {
+            margin-left: 80px;
+        }
+        .total {
+            margin-left: 150px;
+        }
+       
+    }
+    .item-word {
+        width: 200px;
+    }
+    .money {
+        margin-left: 145px;
+        line-height: 50px;
+    }
+    .setting {
+        input {
+            
+            margin-left:  60px;
+            
+        }
+        h4 {
+            height:20px;
+        }
+    }
+    .money-last {
+        margin-left: 130px;
+        line-height: 50px;
+    }
+    
+    .last-price {
+        margin-left: 340px;
+    }
+    
+    .last-money {
+        margin-left: 180px;
+    }
+    
+    .last{
+        margin-left: 525px;
+    }
+    
+    .lastlast {
+        margin-left: 210px;
+    }
+    .pay-button {
+        margin-left: 420px;
+    }
+    
+}
+@media screen and (max-width: 880px)
+{
+
+    // index RWD
+    .container {
+        width: 740px;
+    }
+    .top-block {
+        h2 {
+            margin-left: 90px;
+        }
+        li {
+            margin-right: 10px;
+        }
+    }
+    .photo-item {
+        
+        li {
+            width: 35px;
+        }
+    }
+    .hot-items p {
+        height: 180px;
+        width: 180px;
+        line-height: 180px;
+    }
+
+    // item RWD
+
+    .container-item {
+        width: 700px;  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    }
+    .inside {
+        img {
+            height: 350px;
+            width: 350px;
+        }
+    }
+
+    .inside-right {
+        select {
+            width: 300px;
+        }
+        button {
+            width: 300px;
+           
+        }
+    }
+
+    .inside-left {
+        p {
+            width:350px;
+        }
+    }
+
+    // cart RWD
+
+    .middle-item {
+        .price {
+            margin-left: 350px;
+        }
+        .count {
+            margin-left: 50px;
+        }
+        .total {
+            margin-left: 100px;
+        }
+       
+    }
+    .money {
+        margin-left: 90px;
+        
+    }
+    .setting {
+        input {
+            
+            margin-left:  40px;
+            
+        }
+    }
+    .money-last {
+        margin-left: 80px;
+        
+    }
+    
+    .last-price {
+        margin-left: 240px;
+    }
+    
+    .last-money {
+        margin-left: 150px;
+    }
+    
+    .last{
+        margin-left: 425px;
+    }
+    
+    .lastlast {
+        margin-left: 180px;
+    }
+    .pay-button {
+        margin-left: 300px;
+    }
+
+
+}
+@media screen and (max-width: 767px)
+{
+    // index RWD
+
+    
+    .container {
+        width: 90%;
+    }
+    .top-block {
+        position: relative;
+        h2 {
+            margin: 0 auto;
+        }
+        button {
+            display: block;
+            background: #ff9204;
+            border: none;
+            width: 130px;
+        }
+        .menu {
+            flex-direction: column;
+            position: absolute;
+            top:80px;
+            background: rgba(#fff,0.9);
+            z-index: 5;
+            li {
+                width: 130px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                margin-right: 0px;
+                &:hover {
+                    color:white;
+                    background: #ff9204;
+                }
+            }
+        }
+        .photo-item {
+            left:auto;
+            li {
+                width:30px;
+            }
+        }
+        
+    }
+
+    .index-image {
+        height: 400px;
+        h2 {
+            font-size: 40px;
+            margin:0 70px;
+            padding-top: 50px;
+        }
+    }
+
+    .line1 {
+        ul {
+            display: list-item;
+            p {
+                margin: 0 auto;
+                height: 300px;
+                width: 300px;
+                line-height: 300px;
+                
+            }
+            h5 {
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+    .line2 {
+        ul {
+            display: list-item;
+            p {
+                margin: 0 auto;
+                height: 300px;
+                width: 300px;
+                line-height: 300px;
+                
+            }
+            h5 {
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+    .send-email {
+        .search {
+            input {
+                width:400px;
+            }
+        }
+        .set-button {
+            button {
+                width:430px;
+            }
+        }
+    }
+
+    // item RWD
+    .container-item {
+        width: 90%;
+    }
+
+    .inside {
+        .inside-left {
+            text-align: center;
+            p {
+                flex: 0 0 600px;
+                
+                margin: 10px auto;
+                padding: 0;
+                text-align: center;
+                
+            }
+        }
+        ul {
+            display: list-item;
+        }
+        
+
+        .inside-right {
+            
+            margin-top: 50px;
+            text-align: center;
+            margin-left: 0;
+            h1 {
+                text-align: center;
+            }
+            
+            .items {
+                margin-left: 0px;
+                text-align: center;
+            }
+            
+        }
+        .right-left {
+            margin-left:auto;
+        }
+        .right-right {
+            margin-right: auto;
+        } 
+    }
+    // cart RWD
+    .middle-item {
+        display: flex;
+        flex-direction: column;     
+    }
+
+    
+
+    .middle-item {
+        .price {
+            margin-left: 250px;
+        }
+        .count {
+            margin-left: auto;
+        }
+        .total {
+            margin-left: auto;
+        }
+        .setting {
+            
+            .money {
+                margin-left: 0;
+            }
+            li:nth-child(3) {
+                margin-left:auto;
+            }
+            input {
+                margin-left: 0;
+                width:30px;
+            }
+            .money-last {
+                margin-left: 0;
+            }
+            .setting-inside {
+                margin-left: 0;
+            }
+            li:nth-child(4) {
+                margin-left: auto;
+            }
+            
+            
+            
+        }
+        
+    }
+    
+    .item-word {
+        margin-left: 5px;
+    }
+    
+    .last-price {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .down-side {
+        display: flex;
+        li:nth-child(2) {
+            margin-left: auto;
+        }
+        li:nth-child(3) {
+            margin-left: auto;
+        }
+    }
+    .last-money {
+        margin-left: auto;
+    }
+    
+    .last{
+        margin-left: 60%;
+    }
+    
+    .lastlast {
+        margin-left: auto;
+    }
+    .pay-button {
+        margin-left: 20%;
+        justify-content: center;
+        width:300px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 500px)
+{
+    .index-image {
+        h2 {
+            font-size: 35px;
+            margin: 0 60px;
+        }
+        
+    }
+    .top-block {
+        button {
+            width:100px;
+        }
+
+        .menu li {
+            width: 100px;
+        }
+        .photo-item {
+            left:auto;
+            li {
+                width:20px;
+            }
+        }
+    }
+    .cut-hands {
+        height: 400px;
+    }
+    // item RWD
+    .inside-left {
+        text-align: center;
+        p {
+            flex: 0 0 400px;
+            
+           
+        }
+    }
+
+    .inside-right {
+        margin-left: 0;
+    }
+    // cart RWD
+
+    .item-word {
+        width: 150px;
+        h2 {
+            font-size: 15px;
+        }
+    }
+    .middle-item {
+        .price {
+            margin-left: 200px; 
+        }
+        .money {
+            font-size: 15px;
+        }
+        .money-last {
+            font-size: 15px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 480px)
+{
+    
+
+    // item RWD
+    .send-email {
+        .search {
+            input {
+                width:300px;
+            }
+        }
+        .set-button {
+            button {
+                width:330px;
+            }
+        }
+    }
+    .container-footer {
+        width: 400px;
+    }
+}
